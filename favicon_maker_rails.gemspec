@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
-  s.add_dependency("favicon_maker", ">= 0.0.7")
+  s.add_dependency("favicon_maker", "= 0.3")
   s.add_development_dependency("rake")
 end
